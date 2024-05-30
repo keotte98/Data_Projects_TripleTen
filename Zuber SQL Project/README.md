@@ -1,4 +1,5 @@
 Data
+
 A database with info on taxi rides in Chicago provided by TripleTen:
 
 'neighborhoods' table: data on city neighborhoods
@@ -22,11 +23,16 @@ A database with info on taxi rides in Chicago provided by TripleTen:
 'ts': record date and time (time rounded to the hour)
 'temperature': temperature when the record was taken
 'description': brief description of weather conditions, e.g. "light rain" or "scattered clouds"
+
 Description:
+
 6 Step SQL query.
+
 Exploratory data analysis and investigation whether the duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays.
 Purpose was to find patterns in the available information from competitors to understand passenger preferences and the impact of external factors on rides.
+
 Assumptions:
+
 There isn't a direct connection between the trips table and weather_records table in the database.
 neighborhood_id is the Primary Key for the neighborhoods table.
 cab_id is the Primary Key for the cabs table.
